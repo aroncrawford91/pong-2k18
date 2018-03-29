@@ -73,11 +73,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 |racket| L | 30min| | |
 |ball| L | 30min | | |
-|scoreboard/player name| H | 3 hr| |
+|scoreboard/player name| H | 3 hr| | 
 |ball Physics| H | 2hr | | |
 |field design| L | 3hr | | |
-|"pong 2k18" design"| L | 1hr |
-
+|"pong 2k18" design"| L | 1hr | | |
 | Total |  | 10hrs|  |  |
 
 ## Helper Functions
