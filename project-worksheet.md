@@ -17,7 +17,13 @@ This schedule will be used to keep track of your progress throughout the week an
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+I want to create pong but with a twist,  the name of the game is pong 2k18, its pong but with a few add on, like special abilites, in the beginning of the game you get a chance to choose 1 of 3 abilities. 
+1.slightly bigger racket
+2.ability to move slightly faster
+3.ability to change the angle of your racket
+
+i would also like to make a 1 player and 2 player mode.
+
 
 ## Wireframes
 
@@ -30,27 +36,34 @@ Include a full list of features that have been prioritized based on the `Time an
 ## Game Components
 
 ### Landing Page
-What will a player see when they start your game?
+players will see a sign that says “PONG 2K18” and  place where they can enter their names and a clickable button to choose their ability and controls on how to play the game.
 
 ### Game Initialization
-What will a player see when the game is started? 
+players will see the playing field where they would see to equal sides and 2 rackets on each side, the ball will drop from the top of the screen and players would start to play.
+
 
 ### Playing The Game
-What will be the flow of the game, what will the user be expeted to do and what will the user expect from the gam
+the players job is to try and get the ball pass the player “danger zone”, the only way to do that is to make sure the ball do not go pass you. the ball will move back in forth at a steady pace( i also want to try and make the speed of the ball to increase every round or maybe every minute). game will be up to 3 or 5 points(not sure yet).
+
 
 ### Winning The Game
-What does it look like when the game ends, what determines winning or losing?
+i want the screen to say game over “the name of the player” wins and maybe a confetti animation. you have to score 3 points to win.
 
 ### Game Reset
-How will the user restart the game once it has been completed.
+i want to create a button that will take people back to the game Initialization screen
 
 ## MVP 
 
-Include the full list of features that will be part of your MVP 
+1.ball physics
+2.functional moving rackets 
+3.playing field background
 
 ## POST MVP
+1.sound effects.
+2.playing field design.
+3.displaying player name and score.
+4. applying ablities.
 
-Include the full list of features that you are considering for POST MVP
 ## Functional Components
 
 Based on the initial logic defined in the previous game phases section try and breakdown the logic further into functional components, and by that we mean functions.  Does your logic indicate that code could be encapsulated for the purpose of reusablility.  Once a function has been defined it can then be incorporated into a class as a method. 
@@ -58,9 +71,14 @@ Based on the initial logic defined in the previous game phases section try and b
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. 
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Component 1 | H | 10hrs| 12hrs | 12hrs |
-| Total |  | 10hrs| 12hrs | 12hrs |
+|racket| L | 30min| | |
+|ball| L | 30min | | |
+|scoreboard/player name| H | 3 hr| |
+|ball Physics| H | 2hr | | |
+|field design| L | 3hr | | |
+|"pong 2k18" design"| L | 1hr |
+
+| Total |  | 10hrs|  |  |
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
