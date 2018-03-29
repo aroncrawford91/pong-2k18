@@ -79,7 +79,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |field design| L | 3hr |1hr | |
 |"pong 2k18" design"| L | 1hr | | |
 |winning logic| H | 5hr | | |
-| Total |  | 24hrs|  |  |
+| Total |  | 24hrs| 2hr 30min |  |
 
 ## Helper Functions
 Helper functions should be generic enought that they can be reused in other applications. Use this section to document all helper functions that fall into this category.
