@@ -89,6 +89,12 @@ margin-top:200px;
     top: 500px;
     left:550px;
 position:absolute;
+}
 
-
+.line{
+  height:500px;
+  width:5px;
+  position:absolute;
+    background-color: #ff4000;
+  left:440px;
 }

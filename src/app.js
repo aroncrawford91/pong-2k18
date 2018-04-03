@@ -58,7 +58,7 @@ function ballMoveLeft() {
 function ballMoveRight() {
     intervalId = setInterval(function() {
 
-      if( $('.ball').css('left'  ) =='-323px') {
+      if( $('.ball').css('left') =='-323px') {
         ballX -= 1;
       }
       else {
