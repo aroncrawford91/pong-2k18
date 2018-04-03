@@ -1,0 +1,94 @@
+.startPage{
+  width:100%;
+  height:100%;
+  background-color: black;
+  position: relative;
+
+
+}
+
+.gameBoard{
+  height:500px;
+  width:900px;
+  background-color: white;
+  border:5px solid black;
+  position: relative;
+  margin-bottom:4px;
+  margin-left:181px;
+  z-index: -1;
+
+}
+
+.paddleLeft{
+height:100px;
+width:20px;
+background-color:black;
+left:50px;
+position: absolute;
+top: 196px;
+/*display:none;*/
+}
+
+.paddleRight{
+height:100px;
+width:20px;
+background-color:black;
+left:831px;
+position:absolute;
+top: 196px;
+/*display: none*/
+}
+
+  .ball{
+  height:30px;
+  width:30px;
+  background-color: black;
+  border-radius: 100%;
+  left: 431px;
+  top: 232px;
+  position: absolute;
+  /*display: none;*/
+
+}
+
+.p1control{
+  font-size: 20px;
+  color:black;
+  margin-top: 504px;
+  /*display:none;*/
+}
+
+.p2control{
+  font-size: 20px;
+  color:black;
+  margin-top: -70px;
+  margin-left: 665px;
+ /* display:none;*/
+}
+.leflame{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -1;
+    position:relative;
+}
+.pongflame{
+margin-left: 130px;
+margin-top:200px;
+
+}
+.startGame{
+  background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    top: 500px;
+    left:550px;
+position:absolute;
+
+
+}
